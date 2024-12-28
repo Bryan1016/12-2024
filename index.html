@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Perdón</title>
+</head>
+<body>
+    <div id="inicio">
+        <h1>Hola China, ¿cómo estás? Por favor da click en empezar...</h1>
+        <button onclick="mostrarMensaje()">EMPEZAR</button>
+    </div>
+
+    <div id="mensaje">
+        <h2>Supongo que no esperabas esto, pero siento que necesito hablarte, aunque sea desde esta manera. Estos días sin ti han sido un mar de emociones, no dejo de pensar en ti, en nosotros, en lo que teníamos y en lo que aún podríamos construir. Me pregunto cómo estás, si has estado bien, si has comido, porque aunque ya no estemos como antes, sigues siendo la persona que más me importa en este mundo.
+
+            Sé que probablemente pienses que estoy insistiendo demasiado, pero, ¿cómo no voy a insistir a alguien que amo con todo mi corazón? No quiero que creas que no soy consciente de mis errores, porque lo soy, sé que fallé, sé que te decepcioné en momentos donde más necesitabas que te cuidara, pero también sé que ambos cometimos errores, y creo, desde lo más profundo de mí, que eso no significa que debamos rendirnos, porque lo que teníamos era real, lo que sentimos no era cualquier cosa, y no quiero dejarlo ir.
+            Estos días han sido difíciles, me he sentido perdido, como si una parte de mí se hubiera quedado en silencio, y no puedo evitar pensar en nosotros, en las promesas que nos hicimos, en las palabras que me decías: "Nunca te dejaré" o "Nunca me dejes tú", y me aferro a ellas porque en su momento significaron todo para mí, y aún lo significan, porque yo no quiero dejarte, no quiero que esto termine así, no quiero que te conviertas en un recuerdo más, cuando para mí siempre fuiste, y sigues siendo, todo.
+            
+            Sé que probablemente tengas dudas, sé que puede que ya no sientas lo mismo, y eso me duele, duele más de lo que las palabras pueden explicar, pero aquí estoy, con el corazón en la mano, pidiéndote una oportunidad, porque creo que podemos salvar esto, creo que aún hay algo por lo que luchar, algo que vale la pena, porque aunque tuvimos momentos difíciles, también tuvimos momentos hermosos, y esos no los cambiaría por nada.
+            No quiero que el amor que sentimos se enfríe, no quiero que la distancia nos consuma, porque para mí sigues siendo esa persona con la que quiero cumplir todo, con la que quiero compartir mis días, mis sueños, mis problemas, con la que quiero. superar cada obstáculo que la vida nos ponga. Espero que podamos hablar, que podamos escucharnos, sin culpas, sin reproches, solo con el deseo de entendernos, de ver si aún hay un camino juntos, porque yo no quiero rendirme, no quiero perderte, y si me dejas, si me das una oportunidad, prometo dar todo de mí para que esto funcione, para que podamos volver a ser felices, porque todavía creo en nosotros, por que todavía te amo ❤️.</h2>
+        
+        <button onclick="noPerdonar()">Continuar</button>
+    </div>
+
+    <div id="agradecimiento" style="display:none;">
+        <h2>Abre el siguiente enlace por favor.</h2>
+        <p>
+        </p>
+        <a id="whatsapp-link" href="https://wa.me/51945649449?text=Hola%20Bryan,%20quiero%20hablar%20contigo." target="_blank">CLICK AQUI</a>
+    </div>
+
+    <div id="imagen-container" style="display:none;">
+        <h2></h2>
+        <img id="imagen" src="" alt="Imagen">
+        <p id="mensaje-imagen"></p> 
+        <button onclick="noPerdonar()">Continuar</button>
+        <button onclick="perdonar()">Hablemos</button>
+    </div>
+
+    <audio id="audio-perdon" src="audio/mujerperfecta.mp3" autoplay loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
